@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    .bor {
+        width: 220px;
+        height: 220px;
+        border: 1px solid #000;
+        
+    }
+      .man {
+          width: 200px;
+          height: 200px;
+          margin-top: calc(50% - 100px);
+          margin-left: calc(50% - 100px);
+          clip-path:  circle(40% at 50% 50%);
+          transition: clip-path 400ms ease;
+      }
+      .man:hover {
+          clip-path: circle(50% at 50% 50%);
+      }
+    </style>
+<body>
+    <div class="bor">
+        <img class="man" src='./img/yingmu.jpg' alt=''/>
+    </div>
+    
+</body>
+</html>
